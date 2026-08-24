@@ -1,0 +1,3086 @@
+{
+  "stations": [
+    {
+      "code": "NDLS",
+      "name": "New Delhi",
+      "division": "Delhi (NR)",
+      "zone": "Northern Railway",
+      "km_mark": 0.0,
+      "latitude": 28.6415,
+      "longitude": 77.2197
+    },
+    {
+      "code": "GZB",
+      "name": "Ghaziabad Jn",
+      "division": "Delhi (NR)",
+      "zone": "Northern Railway",
+      "km_mark": 25.0,
+      "latitude": 28.6692,
+      "longitude": 77.4538
+    },
+    {
+      "code": "ALJN",
+      "name": "Aligarh Jn",
+      "division": "Prayagraj (NCR)",
+      "zone": "North Central Railway",
+      "km_mark": 131.0,
+      "latitude": 27.8974,
+      "longitude": 78.088
+    },
+    {
+      "code": "TDL",
+      "name": "Tundla Jn",
+      "division": "Prayagraj (NCR)",
+      "zone": "North Central Railway",
+      "km_mark": 209.0,
+      "latitude": 27.2081,
+      "longitude": 78.2415
+    },
+    {
+      "code": "ETW",
+      "name": "Etawah Jn",
+      "division": "Prayagraj (NCR)",
+      "zone": "North Central Railway",
+      "km_mark": 301.0,
+      "latitude": 26.7769,
+      "longitude": 79.0232
+    },
+    {
+      "code": "CNB",
+      "name": "Kanpur Central",
+      "division": "Prayagraj (NCR)",
+      "zone": "North Central Railway",
+      "km_mark": 440.0,
+      "latitude": 26.4547,
+      "longitude": 80.3507
+    },
+    {
+      "code": "FTP",
+      "name": "Fatehpur",
+      "division": "Prayagraj (NCR)",
+      "zone": "North Central Railway",
+      "km_mark": 518.0,
+      "latitude": 25.9284,
+      "longitude": 80.8128
+    },
+    {
+      "code": "PRYJ",
+      "name": "Prayagraj Jn",
+      "division": "Prayagraj (NCR)",
+      "zone": "North Central Railway",
+      "km_mark": 635.0,
+      "latitude": 25.4497,
+      "longitude": 81.8286
+    },
+    {
+      "code": "MZP",
+      "name": "Mirzapur",
+      "division": "Prayagraj (NCR)",
+      "zone": "North Central Railway",
+      "km_mark": 724.0,
+      "latitude": 25.146,
+      "longitude": 82.569
+    },
+    {
+      "code": "DDU",
+      "name": "Pt. Deen Dayal Upadhyaya",
+      "division": "DDU (ECR)",
+      "zone": "East Central Railway",
+      "km_mark": 788.0,
+      "latitude": 25.2818,
+      "longitude": 83.1189
+    },
+    {
+      "code": "AF",
+      "name": "Agra Fort",
+      "division": "Agra (NCR)",
+      "zone": "North Central Railway",
+      "km_mark": 235.0,
+      "latitude": 27.1795,
+      "longitude": 78.0211
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "SEC_NDLS_GZB",
+      "name": "New Delhi - Ghaziabad (UP/DN Trunk)",
+      "from_station": "NDLS",
+      "to_station": "GZB",
+      "length_km": 25.0,
+      "max_speed_kmph": 110,
+      "track_type": "BIDIRECTIONAL",
+      "capacity_trains_per_hour": 5.0,
+      "risk_score": 43.9,
+      "pway_health": 82.0,
+      "ohe_health": 68.0,
+      "signal_health": 75.0,
+      "days_since_last_maintenance": 24,
+      "hourly_traffic_density": [
+        0.84,
+        0.26,
+        0.23,
+        0.52,
+        1.87,
+        3.55,
+        4.92,
+        4.88,
+        4.48,
+        2.86,
+        2.12,
+        1.8,
+        1.46,
+        1.81,
+        2.44,
+        3.21,
+        4.42,
+        5.23,
+        4.89,
+        3.45,
+        2.69,
+        1.86,
+        1.15,
+        0.8
+      ]
+    },
+    {
+      "section_id": "SEC_GZB_ALJN",
+      "name": "Ghaziabad - Aligarh (UP/DN Trunk)",
+      "from_station": "GZB",
+      "to_station": "ALJN",
+      "length_km": 106.0,
+      "max_speed_kmph": 130,
+      "track_type": "BIDIRECTIONAL",
+      "capacity_trains_per_hour": 4.0,
+      "risk_score": 44.2,
+      "pway_health": 65.0,
+      "ohe_health": 80.0,
+      "signal_health": 85.0,
+      "days_since_last_maintenance": 18,
+      "hourly_traffic_density": [
+        1.34,
+        0.75,
+        0.48,
+        0.68,
+        1.6,
+        2.53,
+        3.89,
+        4.27,
+        4.01,
+        3.64,
+        2.76,
+        2.42,
+        2.3,
+        2.54,
+        2.91,
+        3.22,
+        3.86,
+        4.06,
+        4.42,
+        3.94,
+        3.07,
+        2.32,
+        1.68,
+        1.33
+      ]
+    },
+    {
+      "section_id": "SEC_ALJN_TDL",
+      "name": "Aligarh - Tundla (UP/DN Trunk)",
+      "from_station": "ALJN",
+      "to_station": "TDL",
+      "length_km": 78.0,
+      "max_speed_kmph": 130,
+      "track_type": "BIDIRECTIONAL",
+      "capacity_trains_per_hour": 4.0,
+      "risk_score": 52.9,
+      "pway_health": 78.0,
+      "ohe_health": 62.0,
+      "signal_health": 70.0,
+      "days_since_last_maintenance": 29,
+      "hourly_traffic_density": [
+        1.24,
+        0.76,
+        0.56,
+        0.71,
+        1.43,
+        2.63,
+        3.84,
+        4.23,
+        3.9,
+        3.57,
+        2.7,
+        2.36,
+        2.35,
+        2.54,
+        2.82,
+        3.26,
+        3.9,
+        4.28,
+        4.42,
+        3.86,
+        3.14,
+        2.33,
+        1.71,
+        1.53
+      ]
+    },
+    {
+      "section_id": "SEC_TDL_AF",
+      "name": "Tundla - Agra Fort Connector",
+      "from_station": "TDL",
+      "to_station": "AF",
+      "length_km": 26.0,
+      "max_speed_kmph": 100,
+      "track_type": "BIDIRECTIONAL",
+      "capacity_trains_per_hour": 3.0,
+      "risk_score": 45.6,
+      "pway_health": 52.0,
+      "ohe_health": 88.0,
+      "signal_health": 90.0,
+      "days_since_last_maintenance": 12,
+      "hourly_traffic_density": [
+        1.61,
+        0.94,
+        0.85,
+        0.97,
+        1.92,
+        2.79,
+        3.53,
+        3.82,
+        3.72,
+        3.13,
+        2.93,
+        2.72,
+        2.47,
+        2.72,
+        3.15,
+        3.5,
+        3.88,
+        3.96,
+        4.08,
+        3.84,
+        3.09,
+        2.48,
+        1.87,
+        1.56
+      ]
+    },
+    {
+      "section_id": "SEC_TDL_ETW",
+      "name": "Tundla - Etawah (High-Speed Section)",
+      "from_station": "TDL",
+      "to_station": "ETW",
+      "length_km": 92.0,
+      "max_speed_kmph": 160,
+      "track_type": "BIDIRECTIONAL",
+      "capacity_trains_per_hour": 4.5,
+      "risk_score": 45.5,
+      "pway_health": 88.0,
+      "ohe_health": 72.0,
+      "signal_health": 65.0,
+      "days_since_last_maintenance": 35,
+      "hourly_traffic_density": [
+        1.35,
+        0.81,
+        0.74,
+        0.91,
+        1.35,
+        2.57,
+        3.85,
+        4.21,
+        3.93,
+        3.54,
+        2.68,
+        2.38,
+        2.19,
+        2.64,
+        2.91,
+        3.13,
+        3.8,
+        4.1,
+        4.62,
+        4.11,
+        3.14,
+        2.44,
+        1.83,
+        1.3
+      ]
+    },
+    {
+      "section_id": "SEC_ETW_CNB",
+      "name": "Etawah - Kanpur (UP/DN Trunk)",
+      "from_station": "ETW",
+      "to_station": "CNB",
+      "length_km": 139.0,
+      "max_speed_kmph": 130,
+      "track_type": "BIDIRECTIONAL",
+      "capacity_trains_per_hour": 4.2,
+      "risk_score": 43.3,
+      "pway_health": 74.0,
+      "ohe_health": 75.0,
+      "signal_health": 80.0,
+      "days_since_last_maintenance": 21,
+      "hourly_traffic_density": [
+        1.28,
+        0.81,
+        0.68,
+        0.81,
+        1.35,
+        2.45,
+        3.66,
+        4.33,
+        4.11,
+        3.6,
+        2.74,
+        2.27,
+        2.31,
+        2.63,
+        2.68,
+        3.2,
+        3.67,
+        4.28,
+        4.58,
+        3.89,
+        3.19,
+        2.41,
+        1.73,
+        1.51
+      ]
+    },
+    {
+      "section_id": "SEC_CNB_FTP",
+      "name": "Kanpur - Fatehpur (UP/DN Trunk)",
+      "from_station": "CNB",
+      "to_station": "FTP",
+      "length_km": 78.0,
+      "max_speed_kmph": 130,
+      "track_type": "BIDIRECTIONAL",
+      "capacity_trains_per_hour": 4.0,
+      "risk_score": 55.7,
+      "pway_health": 85.0,
+      "ohe_health": 60.0,
+      "signal_health": 55.0,
+      "days_since_last_maintenance": 32,
+      "hourly_traffic_density": [
+        1.18,
+        0.71,
+        0.61,
+        0.87,
+        1.41,
+        2.44,
+        3.95,
+        4.24,
+        3.98,
+        3.51,
+        2.69,
+        2.32,
+        2.15,
+        2.53,
+        2.72,
+        3.12,
+        3.67,
+        4.24,
+        4.42,
+        4.12,
+        3.31,
+        2.27,
+        1.72,
+        1.45
+      ]
+    },
+    {
+      "section_id": "SEC_FTP_PRYJ",
+      "name": "Fatehpur - Prayagraj (UP/DN Trunk)",
+      "from_station": "FTP",
+      "to_station": "PRYJ",
+      "length_km": 117.0,
+      "max_speed_kmph": 130,
+      "track_type": "BIDIRECTIONAL",
+      "capacity_trains_per_hour": 4.0,
+      "risk_score": 43.2,
+      "pway_health": 68.0,
+      "ohe_health": 78.0,
+      "signal_health": 82.0,
+      "days_since_last_maintenance": 15,
+      "hourly_traffic_density": [
+        1.11,
+        0.69,
+        0.73,
+        0.82,
+        1.49,
+        2.59,
+        3.89,
+        4.11,
+        3.88,
+        3.48,
+        2.78,
+        2.39,
+        2.27,
+        2.55,
+        2.95,
+        3.08,
+        3.77,
+        4.15,
+        4.61,
+        3.92,
+        3.11,
+        2.38,
+        1.78,
+        1.33
+      ]
+    },
+    {
+      "section_id": "SEC_PRYJ_MZP",
+      "name": "Prayagraj - Mirzapur (UP/DN Trunk)",
+      "from_station": "PRYJ",
+      "to_station": "MZP",
+      "length_km": 89.0,
+      "max_speed_kmph": 130,
+      "track_type": "BIDIRECTIONAL",
+      "capacity_trains_per_hour": 3.8,
+      "risk_score": 42.3,
+      "pway_health": 71.0,
+      "ohe_health": 82.0,
+      "signal_health": 78.0,
+      "days_since_last_maintenance": 19,
+      "hourly_traffic_density": [
+        1.12,
+        0.93,
+        0.58,
+        0.91,
+        1.52,
+        2.37,
+        3.95,
+        4.3,
+        4.14,
+        3.63,
+        2.9,
+        2.3,
+        2.2,
+        2.41,
+        2.77,
+        3.07,
+        3.76,
+        4.35,
+        4.43,
+        4.09,
+        3.19,
+        2.38,
+        1.94,
+        1.55
+      ]
+    },
+    {
+      "section_id": "SEC_MZP_DDU",
+      "name": "Mirzapur - Pt. Deen Dayal Upadhyaya",
+      "from_station": "MZP",
+      "to_station": "DDU",
+      "length_km": 64.0,
+      "max_speed_kmph": 130,
+      "track_type": "BIDIRECTIONAL",
+      "capacity_trains_per_hour": 4.0,
+      "risk_score": 49.8,
+      "pway_health": 80.0,
+      "ohe_health": 65.0,
+      "signal_health": 70.0,
+      "days_since_last_maintenance": 28,
+      "hourly_traffic_density": [
+        1.22,
+        0.87,
+        0.5,
+        0.74,
+        1.64,
+        2.52,
+        3.81,
+        4.27,
+        3.87,
+        3.53,
+        2.8,
+        2.51,
+        2.1,
+        2.64,
+        2.67,
+        3.11,
+        3.83,
+        4.25,
+        4.42,
+        3.89,
+        3.32,
+        2.32,
+        1.83,
+        1.44
+      ]
+    },
+    {
+      "section_id": "SEC_CNB_BYPASS",
+      "name": "Kanpur Central Goods Bypass Line",
+      "from_station": "CNB",
+      "to_station": "FTP",
+      "length_km": 18.0,
+      "max_speed_kmph": 80,
+      "track_type": "BIDIRECTIONAL",
+      "capacity_trains_per_hour": 2.5,
+      "risk_score": 52.6,
+      "pway_health": 91.0,
+      "ohe_health": 58.0,
+      "signal_health": 62.0,
+      "days_since_last_maintenance": 40,
+      "hourly_traffic_density": [
+        1.48,
+        1.03,
+        0.81,
+        1.13,
+        1.71,
+        2.86,
+        3.52,
+        3.87,
+        3.75,
+        3.14,
+        2.84,
+        2.68,
+        2.37,
+        2.79,
+        3.15,
+        3.65,
+        3.87,
+        4.01,
+        4.13,
+        3.93,
+        3.11,
+        2.61,
+        1.96,
+        1.5
+      ]
+    }
+  ],
+  "trains": [
+    {
+      "train_number": "22436",
+      "train_name": "Vande Bharat Express (NDLS-BSB)",
+      "train_type": "VANDE_BHARAT",
+      "priority": 1,
+      "is_must_run": true,
+      "origin": "NDLS",
+      "destination": "DDU",
+      "departure_time": "06:00",
+      "arrival_time": "14:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          6
+        ],
+        "SEC_GZB_ALJN": [
+          6
+        ],
+        "SEC_ALJN_TDL": [
+          7
+        ],
+        "SEC_TDL_ETW": [
+          8
+        ],
+        "SEC_ETW_CNB": [
+          9
+        ],
+        "SEC_CNB_FTP": [
+          10
+        ],
+        "SEC_FTP_PRYJ": [
+          11
+        ],
+        "SEC_PRYJ_MZP": [
+          12
+        ],
+        "SEC_MZP_DDU": [
+          13
+        ]
+      },
+      "passengers_estimated": 1200
+    },
+    {
+      "train_number": "22435",
+      "train_name": "Vande Bharat Express (BSB-NDLS)",
+      "train_type": "VANDE_BHARAT",
+      "priority": 1,
+      "is_must_run": true,
+      "origin": "DDU",
+      "destination": "NDLS",
+      "departure_time": "15:00",
+      "arrival_time": "23:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          15
+        ],
+        "SEC_PRYJ_MZP": [
+          15
+        ],
+        "SEC_FTP_PRYJ": [
+          16
+        ],
+        "SEC_CNB_FTP": [
+          17
+        ],
+        "SEC_ETW_CNB": [
+          18
+        ],
+        "SEC_TDL_ETW": [
+          19
+        ],
+        "SEC_ALJN_TDL": [
+          20
+        ],
+        "SEC_GZB_ALJN": [
+          21
+        ],
+        "SEC_NDLS_GZB": [
+          22
+        ]
+      },
+      "passengers_estimated": 1200
+    },
+    {
+      "train_number": "22416",
+      "train_name": "Vande Bharat Express (NDLS-BSB 2)",
+      "train_type": "VANDE_BHARAT",
+      "priority": 1,
+      "is_must_run": true,
+      "origin": "NDLS",
+      "destination": "DDU",
+      "departure_time": "15:00",
+      "arrival_time": "23:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          15
+        ],
+        "SEC_GZB_ALJN": [
+          15
+        ],
+        "SEC_ALJN_TDL": [
+          16
+        ],
+        "SEC_TDL_ETW": [
+          17
+        ],
+        "SEC_ETW_CNB": [
+          18
+        ],
+        "SEC_CNB_FTP": [
+          19
+        ],
+        "SEC_FTP_PRYJ": [
+          20
+        ],
+        "SEC_PRYJ_MZP": [
+          21
+        ],
+        "SEC_MZP_DDU": [
+          22
+        ]
+      },
+      "passengers_estimated": 1200
+    },
+    {
+      "train_number": "12302",
+      "train_name": "Howrah Rajdhani Express",
+      "train_type": "RAJDHANI",
+      "priority": 1,
+      "is_must_run": true,
+      "origin": "NDLS",
+      "destination": "DDU",
+      "departure_time": "16:00",
+      "arrival_time": "23:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          16
+        ],
+        "SEC_GZB_ALJN": [
+          16
+        ],
+        "SEC_ALJN_TDL": [
+          17
+        ],
+        "SEC_TDL_ETW": [
+          18
+        ],
+        "SEC_ETW_CNB": [
+          19
+        ],
+        "SEC_CNB_FTP": [
+          19
+        ],
+        "SEC_FTP_PRYJ": [
+          20
+        ],
+        "SEC_PRYJ_MZP": [
+          21
+        ],
+        "SEC_MZP_DDU": [
+          22
+        ]
+      },
+      "passengers_estimated": 1200
+    },
+    {
+      "train_number": "12301",
+      "train_name": "Howrah Rajdhani Express (UP)",
+      "train_type": "RAJDHANI",
+      "priority": 1,
+      "is_must_run": true,
+      "origin": "DDU",
+      "destination": "NDLS",
+      "departure_time": "03:00",
+      "arrival_time": "10:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          3
+        ],
+        "SEC_PRYJ_MZP": [
+          3
+        ],
+        "SEC_FTP_PRYJ": [
+          4
+        ],
+        "SEC_CNB_FTP": [
+          5
+        ],
+        "SEC_ETW_CNB": [
+          6
+        ],
+        "SEC_TDL_ETW": [
+          6
+        ],
+        "SEC_ALJN_TDL": [
+          7
+        ],
+        "SEC_GZB_ALJN": [
+          8
+        ],
+        "SEC_NDLS_GZB": [
+          9
+        ]
+      },
+      "passengers_estimated": 1200
+    },
+    {
+      "train_number": "12424",
+      "train_name": "Dibrugarh Rajdhani Express",
+      "train_type": "RAJDHANI",
+      "priority": 1,
+      "is_must_run": true,
+      "origin": "NDLS",
+      "destination": "DDU",
+      "departure_time": "16:00",
+      "arrival_time": "23:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          16
+        ],
+        "SEC_GZB_ALJN": [
+          16
+        ],
+        "SEC_ALJN_TDL": [
+          17
+        ],
+        "SEC_TDL_ETW": [
+          18
+        ],
+        "SEC_ETW_CNB": [
+          19
+        ],
+        "SEC_CNB_FTP": [
+          19
+        ],
+        "SEC_FTP_PRYJ": [
+          20
+        ],
+        "SEC_PRYJ_MZP": [
+          21
+        ],
+        "SEC_MZP_DDU": [
+          22
+        ]
+      },
+      "passengers_estimated": 1200
+    },
+    {
+      "train_number": "12423",
+      "train_name": "Dibrugarh Rajdhani (UP)",
+      "train_type": "RAJDHANI",
+      "priority": 1,
+      "is_must_run": true,
+      "origin": "DDU",
+      "destination": "NDLS",
+      "departure_time": "04:00",
+      "arrival_time": "11:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          4
+        ],
+        "SEC_PRYJ_MZP": [
+          4
+        ],
+        "SEC_FTP_PRYJ": [
+          5
+        ],
+        "SEC_CNB_FTP": [
+          6
+        ],
+        "SEC_ETW_CNB": [
+          7
+        ],
+        "SEC_TDL_ETW": [
+          7
+        ],
+        "SEC_ALJN_TDL": [
+          8
+        ],
+        "SEC_GZB_ALJN": [
+          9
+        ],
+        "SEC_NDLS_GZB": [
+          10
+        ]
+      },
+      "passengers_estimated": 1200
+    },
+    {
+      "train_number": "12004",
+      "train_name": "Lucknow Swarna Shatabdi",
+      "train_type": "SHATABDI",
+      "priority": 1,
+      "is_must_run": true,
+      "origin": "NDLS",
+      "destination": "CNB",
+      "departure_time": "06:00",
+      "arrival_time": "12:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          6
+        ],
+        "SEC_GZB_ALJN": [
+          6
+        ],
+        "SEC_ALJN_TDL": [
+          7
+        ],
+        "SEC_TDL_ETW": [
+          8
+        ],
+        "SEC_ETW_CNB": [
+          8
+        ],
+        "SEC_CNB_FTP": [
+          9
+        ],
+        "SEC_FTP_PRYJ": [
+          10
+        ],
+        "SEC_PRYJ_MZP": [
+          10
+        ],
+        "SEC_MZP_DDU": [
+          11
+        ]
+      },
+      "passengers_estimated": 1200
+    },
+    {
+      "train_number": "12003",
+      "train_name": "Lucknow Swarna Shatabdi (UP)",
+      "train_type": "SHATABDI",
+      "priority": 1,
+      "is_must_run": true,
+      "origin": "CNB",
+      "destination": "NDLS",
+      "departure_time": "16:00",
+      "arrival_time": "22:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          16
+        ],
+        "SEC_PRYJ_MZP": [
+          16
+        ],
+        "SEC_FTP_PRYJ": [
+          17
+        ],
+        "SEC_CNB_FTP": [
+          18
+        ],
+        "SEC_ETW_CNB": [
+          18
+        ],
+        "SEC_TDL_ETW": [
+          19
+        ],
+        "SEC_ALJN_TDL": [
+          20
+        ],
+        "SEC_GZB_ALJN": [
+          20
+        ],
+        "SEC_NDLS_GZB": [
+          21
+        ]
+      },
+      "passengers_estimated": 1200
+    },
+    {
+      "train_number": "12418",
+      "train_name": "Prayagraj Express",
+      "train_type": "SUPERFAST",
+      "priority": 1,
+      "is_must_run": true,
+      "origin": "NDLS",
+      "destination": "PRYJ",
+      "departure_time": "22:00",
+      "arrival_time": "07:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          22
+        ],
+        "SEC_GZB_ALJN": [
+          23
+        ],
+        "SEC_ALJN_TDL": [
+          0
+        ],
+        "SEC_TDL_ETW": [
+          1
+        ],
+        "SEC_ETW_CNB": [
+          2
+        ],
+        "SEC_CNB_FTP": [
+          3
+        ],
+        "SEC_FTP_PRYJ": [
+          4
+        ],
+        "SEC_PRYJ_MZP": [
+          5
+        ],
+        "SEC_MZP_DDU": [
+          6
+        ]
+      },
+      "passengers_estimated": 1200
+    },
+    {
+      "train_number": "12417",
+      "train_name": "Prayagraj Express (UP)",
+      "train_type": "SUPERFAST",
+      "priority": 1,
+      "is_must_run": true,
+      "origin": "PRYJ",
+      "destination": "NDLS",
+      "departure_time": "22:00",
+      "arrival_time": "07:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          22
+        ],
+        "SEC_PRYJ_MZP": [
+          23
+        ],
+        "SEC_FTP_PRYJ": [
+          0
+        ],
+        "SEC_CNB_FTP": [
+          1
+        ],
+        "SEC_ETW_CNB": [
+          2
+        ],
+        "SEC_TDL_ETW": [
+          3
+        ],
+        "SEC_ALJN_TDL": [
+          4
+        ],
+        "SEC_GZB_ALJN": [
+          5
+        ],
+        "SEC_NDLS_GZB": [
+          6
+        ]
+      },
+      "passengers_estimated": 1200
+    },
+    {
+      "train_number": "12560",
+      "train_name": "Shiv Ganga Express",
+      "train_type": "SUPERFAST",
+      "priority": 1,
+      "is_must_run": true,
+      "origin": "NDLS",
+      "destination": "BSB",
+      "departure_time": "20:00",
+      "arrival_time": "05:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          20
+        ],
+        "SEC_GZB_ALJN": [
+          21
+        ],
+        "SEC_ALJN_TDL": [
+          22
+        ],
+        "SEC_TDL_ETW": [
+          23
+        ],
+        "SEC_ETW_CNB": [
+          0
+        ],
+        "SEC_CNB_FTP": [
+          1
+        ],
+        "SEC_FTP_PRYJ": [
+          2
+        ],
+        "SEC_PRYJ_MZP": [
+          3
+        ],
+        "SEC_MZP_DDU": [
+          4
+        ]
+      },
+      "passengers_estimated": 1200
+    },
+    {
+      "train_number": "12314",
+      "train_name": "Sealdah Rajdhani Express",
+      "train_type": "RAJDHANI",
+      "priority": 1,
+      "is_must_run": true,
+      "origin": "NDLS",
+      "destination": "DDU",
+      "departure_time": "16:00",
+      "arrival_time": "23:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          16
+        ],
+        "SEC_GZB_ALJN": [
+          16
+        ],
+        "SEC_ALJN_TDL": [
+          17
+        ],
+        "SEC_TDL_ETW": [
+          18
+        ],
+        "SEC_ETW_CNB": [
+          19
+        ],
+        "SEC_CNB_FTP": [
+          19
+        ],
+        "SEC_FTP_PRYJ": [
+          20
+        ],
+        "SEC_PRYJ_MZP": [
+          21
+        ],
+        "SEC_MZP_DDU": [
+          22
+        ]
+      },
+      "passengers_estimated": 1200
+    },
+    {
+      "train_number": "12452",
+      "train_name": "Shram Shakti Express",
+      "train_type": "SUPERFAST",
+      "priority": 2,
+      "is_must_run": false,
+      "origin": "NDLS",
+      "destination": "CNB",
+      "departure_time": "23:00",
+      "arrival_time": "06:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          23
+        ],
+        "SEC_GZB_ALJN": [
+          23
+        ],
+        "SEC_ALJN_TDL": [
+          0
+        ],
+        "SEC_TDL_ETW": [
+          1
+        ],
+        "SEC_ETW_CNB": [
+          2
+        ],
+        "SEC_CNB_FTP": [
+          2
+        ],
+        "SEC_FTP_PRYJ": [
+          3
+        ],
+        "SEC_PRYJ_MZP": [
+          4
+        ],
+        "SEC_MZP_DDU": [
+          5
+        ]
+      },
+      "passengers_estimated": 950
+    },
+    {
+      "train_number": "12451",
+      "train_name": "Shram Shakti Express (UP)",
+      "train_type": "SUPERFAST",
+      "priority": 2,
+      "is_must_run": false,
+      "origin": "CNB",
+      "destination": "NDLS",
+      "departure_time": "23:00",
+      "arrival_time": "06:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          23
+        ],
+        "SEC_PRYJ_MZP": [
+          23
+        ],
+        "SEC_FTP_PRYJ": [
+          0
+        ],
+        "SEC_CNB_FTP": [
+          1
+        ],
+        "SEC_ETW_CNB": [
+          2
+        ],
+        "SEC_TDL_ETW": [
+          2
+        ],
+        "SEC_ALJN_TDL": [
+          3
+        ],
+        "SEC_GZB_ALJN": [
+          4
+        ],
+        "SEC_NDLS_GZB": [
+          5
+        ]
+      },
+      "passengers_estimated": 950
+    },
+    {
+      "train_number": "12398",
+      "train_name": "Mahabodhi Express",
+      "train_type": "SUPERFAST",
+      "priority": 2,
+      "is_must_run": false,
+      "origin": "NDLS",
+      "destination": "DDU",
+      "departure_time": "12:00",
+      "arrival_time": "20:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          12
+        ],
+        "SEC_GZB_ALJN": [
+          12
+        ],
+        "SEC_ALJN_TDL": [
+          13
+        ],
+        "SEC_TDL_ETW": [
+          14
+        ],
+        "SEC_ETW_CNB": [
+          15
+        ],
+        "SEC_CNB_FTP": [
+          16
+        ],
+        "SEC_FTP_PRYJ": [
+          17
+        ],
+        "SEC_PRYJ_MZP": [
+          18
+        ],
+        "SEC_MZP_DDU": [
+          19
+        ]
+      },
+      "passengers_estimated": 950
+    },
+    {
+      "train_number": "12397",
+      "train_name": "Mahabodhi Express (UP)",
+      "train_type": "SUPERFAST",
+      "priority": 2,
+      "is_must_run": false,
+      "origin": "DDU",
+      "destination": "NDLS",
+      "departure_time": "14:00",
+      "arrival_time": "22:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          14
+        ],
+        "SEC_PRYJ_MZP": [
+          14
+        ],
+        "SEC_FTP_PRYJ": [
+          15
+        ],
+        "SEC_CNB_FTP": [
+          16
+        ],
+        "SEC_ETW_CNB": [
+          17
+        ],
+        "SEC_TDL_ETW": [
+          18
+        ],
+        "SEC_ALJN_TDL": [
+          19
+        ],
+        "SEC_GZB_ALJN": [
+          20
+        ],
+        "SEC_NDLS_GZB": [
+          21
+        ]
+      },
+      "passengers_estimated": 950
+    },
+    {
+      "train_number": "12876",
+      "train_name": "Neelachal Express",
+      "train_type": "EXPRESS",
+      "priority": 2,
+      "is_must_run": false,
+      "origin": "NDLS",
+      "destination": "DDU",
+      "departure_time": "07:00",
+      "arrival_time": "18:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          7
+        ],
+        "SEC_GZB_ALJN": [
+          8
+        ],
+        "SEC_ALJN_TDL": [
+          9
+        ],
+        "SEC_TDL_ETW": [
+          10
+        ],
+        "SEC_ETW_CNB": [
+          11
+        ],
+        "SEC_CNB_FTP": [
+          13
+        ],
+        "SEC_FTP_PRYJ": [
+          14
+        ],
+        "SEC_PRYJ_MZP": [
+          15
+        ],
+        "SEC_MZP_DDU": [
+          16
+        ]
+      },
+      "passengers_estimated": 950
+    },
+    {
+      "train_number": "12875",
+      "train_name": "Neelachal Express (UP)",
+      "train_type": "EXPRESS",
+      "priority": 2,
+      "is_must_run": false,
+      "origin": "DDU",
+      "destination": "NDLS",
+      "departure_time": "08:00",
+      "arrival_time": "19:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          8
+        ],
+        "SEC_PRYJ_MZP": [
+          9
+        ],
+        "SEC_FTP_PRYJ": [
+          10
+        ],
+        "SEC_CNB_FTP": [
+          11
+        ],
+        "SEC_ETW_CNB": [
+          12
+        ],
+        "SEC_TDL_ETW": [
+          14
+        ],
+        "SEC_ALJN_TDL": [
+          15
+        ],
+        "SEC_GZB_ALJN": [
+          16
+        ],
+        "SEC_NDLS_GZB": [
+          17
+        ]
+      },
+      "passengers_estimated": 950
+    },
+    {
+      "train_number": "12582",
+      "train_name": "Banaras Superfast",
+      "train_type": "SUPERFAST",
+      "priority": 2,
+      "is_must_run": false,
+      "origin": "NDLS",
+      "destination": "PRYJ",
+      "departure_time": "22:00",
+      "arrival_time": "07:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          22
+        ],
+        "SEC_GZB_ALJN": [
+          23
+        ],
+        "SEC_ALJN_TDL": [
+          0
+        ],
+        "SEC_TDL_ETW": [
+          1
+        ],
+        "SEC_ETW_CNB": [
+          2
+        ],
+        "SEC_CNB_FTP": [
+          3
+        ],
+        "SEC_FTP_PRYJ": [
+          4
+        ],
+        "SEC_PRYJ_MZP": [
+          5
+        ],
+        "SEC_MZP_DDU": [
+          6
+        ]
+      },
+      "passengers_estimated": 950
+    },
+    {
+      "train_number": "12556",
+      "train_name": "Gorakhdham Express",
+      "train_type": "SUPERFAST",
+      "priority": 2,
+      "is_must_run": false,
+      "origin": "NDLS",
+      "destination": "CNB",
+      "departure_time": "21:00",
+      "arrival_time": "05:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          21
+        ],
+        "SEC_GZB_ALJN": [
+          21
+        ],
+        "SEC_ALJN_TDL": [
+          22
+        ],
+        "SEC_TDL_ETW": [
+          23
+        ],
+        "SEC_ETW_CNB": [
+          0
+        ],
+        "SEC_CNB_FTP": [
+          1
+        ],
+        "SEC_FTP_PRYJ": [
+          2
+        ],
+        "SEC_PRYJ_MZP": [
+          3
+        ],
+        "SEC_MZP_DDU": [
+          4
+        ]
+      },
+      "passengers_estimated": 950
+    },
+    {
+      "train_number": "14006",
+      "train_name": "Lichchhavi Express",
+      "train_type": "EXPRESS",
+      "priority": 2,
+      "is_must_run": false,
+      "origin": "NDLS",
+      "destination": "PRYJ",
+      "departure_time": "18:00",
+      "arrival_time": "05:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          18
+        ],
+        "SEC_GZB_ALJN": [
+          19
+        ],
+        "SEC_ALJN_TDL": [
+          20
+        ],
+        "SEC_TDL_ETW": [
+          21
+        ],
+        "SEC_ETW_CNB": [
+          22
+        ],
+        "SEC_CNB_FTP": [
+          0
+        ],
+        "SEC_FTP_PRYJ": [
+          1
+        ],
+        "SEC_PRYJ_MZP": [
+          2
+        ],
+        "SEC_MZP_DDU": [
+          3
+        ]
+      },
+      "passengers_estimated": 950
+    },
+    {
+      "train_number": "14164",
+      "train_name": "Sangam Express",
+      "train_type": "EXPRESS",
+      "priority": 2,
+      "is_must_run": false,
+      "origin": "ALJN",
+      "destination": "PRYJ",
+      "departure_time": "19:00",
+      "arrival_time": "08:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          19
+        ],
+        "SEC_PRYJ_MZP": [
+          20
+        ],
+        "SEC_FTP_PRYJ": [
+          21
+        ],
+        "SEC_CNB_FTP": [
+          23
+        ],
+        "SEC_ETW_CNB": [
+          0
+        ],
+        "SEC_TDL_ETW": [
+          2
+        ],
+        "SEC_ALJN_TDL": [
+          3
+        ],
+        "SEC_GZB_ALJN": [
+          5
+        ],
+        "SEC_NDLS_GZB": [
+          6
+        ]
+      },
+      "passengers_estimated": 950
+    },
+    {
+      "train_number": "12428",
+      "train_name": "Rewa Express",
+      "train_type": "SUPERFAST",
+      "priority": 2,
+      "is_must_run": false,
+      "origin": "NDLS",
+      "destination": "PRYJ",
+      "departure_time": "22:00",
+      "arrival_time": "07:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          22
+        ],
+        "SEC_GZB_ALJN": [
+          23
+        ],
+        "SEC_ALJN_TDL": [
+          0
+        ],
+        "SEC_TDL_ETW": [
+          1
+        ],
+        "SEC_ETW_CNB": [
+          2
+        ],
+        "SEC_CNB_FTP": [
+          3
+        ],
+        "SEC_FTP_PRYJ": [
+          4
+        ],
+        "SEC_PRYJ_MZP": [
+          5
+        ],
+        "SEC_MZP_DDU": [
+          6
+        ]
+      },
+      "passengers_estimated": 950
+    },
+    {
+      "train_number": "12382",
+      "train_name": "Poorva Express",
+      "train_type": "SUPERFAST",
+      "priority": 2,
+      "is_must_run": false,
+      "origin": "NDLS",
+      "destination": "DDU",
+      "departure_time": "17:00",
+      "arrival_time": "02:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          17
+        ],
+        "SEC_GZB_ALJN": [
+          18
+        ],
+        "SEC_ALJN_TDL": [
+          19
+        ],
+        "SEC_TDL_ETW": [
+          20
+        ],
+        "SEC_ETW_CNB": [
+          21
+        ],
+        "SEC_CNB_FTP": [
+          22
+        ],
+        "SEC_FTP_PRYJ": [
+          23
+        ],
+        "SEC_PRYJ_MZP": [
+          0
+        ],
+        "SEC_MZP_DDU": [
+          1
+        ]
+      },
+      "passengers_estimated": 950
+    },
+    {
+      "train_number": "12296",
+      "train_name": "Sanghamitra Express",
+      "train_type": "SUPERFAST",
+      "priority": 2,
+      "is_must_run": false,
+      "origin": "DDU",
+      "destination": "PRYJ",
+      "departure_time": "08:00",
+      "arrival_time": "11:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          8
+        ],
+        "SEC_PRYJ_MZP": [
+          8
+        ],
+        "SEC_FTP_PRYJ": [
+          8
+        ],
+        "SEC_CNB_FTP": [
+          9
+        ],
+        "SEC_ETW_CNB": [
+          9
+        ],
+        "SEC_TDL_ETW": [
+          9
+        ],
+        "SEC_ALJN_TDL": [
+          10
+        ],
+        "SEC_GZB_ALJN": [
+          10
+        ],
+        "SEC_NDLS_GZB": [
+          10
+        ]
+      },
+      "passengers_estimated": 950
+    },
+    {
+      "train_number": "15004",
+      "train_name": "Chauri Chaura Express",
+      "train_type": "EXPRESS",
+      "priority": 2,
+      "is_must_run": false,
+      "origin": "CNB",
+      "destination": "PRYJ",
+      "departure_time": "17:00",
+      "arrival_time": "21:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          17
+        ],
+        "SEC_PRYJ_MZP": [
+          17
+        ],
+        "SEC_FTP_PRYJ": [
+          17
+        ],
+        "SEC_CNB_FTP": [
+          18
+        ],
+        "SEC_ETW_CNB": [
+          18
+        ],
+        "SEC_TDL_ETW": [
+          19
+        ],
+        "SEC_ALJN_TDL": [
+          19
+        ],
+        "SEC_GZB_ALJN": [
+          20
+        ],
+        "SEC_NDLS_GZB": [
+          20
+        ]
+      },
+      "passengers_estimated": 950
+    },
+    {
+      "train_number": "14218",
+      "train_name": "Unchahar Express",
+      "train_type": "EXPRESS",
+      "priority": 2,
+      "is_must_run": false,
+      "origin": "ALJN",
+      "destination": "PRYJ",
+      "departure_time": "21:00",
+      "arrival_time": "06:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          21
+        ],
+        "SEC_PRYJ_MZP": [
+          22
+        ],
+        "SEC_FTP_PRYJ": [
+          23
+        ],
+        "SEC_CNB_FTP": [
+          0
+        ],
+        "SEC_ETW_CNB": [
+          1
+        ],
+        "SEC_TDL_ETW": [
+          2
+        ],
+        "SEC_ALJN_TDL": [
+          3
+        ],
+        "SEC_GZB_ALJN": [
+          4
+        ],
+        "SEC_NDLS_GZB": [
+          5
+        ]
+      },
+      "passengers_estimated": 950
+    },
+    {
+      "train_number": "12402",
+      "train_name": "Magadh Express",
+      "train_type": "SUPERFAST",
+      "priority": 2,
+      "is_must_run": false,
+      "origin": "NDLS",
+      "destination": "DDU",
+      "departure_time": "21:00",
+      "arrival_time": "06:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          21
+        ],
+        "SEC_GZB_ALJN": [
+          22
+        ],
+        "SEC_ALJN_TDL": [
+          23
+        ],
+        "SEC_TDL_ETW": [
+          0
+        ],
+        "SEC_ETW_CNB": [
+          1
+        ],
+        "SEC_CNB_FTP": [
+          2
+        ],
+        "SEC_FTP_PRYJ": [
+          3
+        ],
+        "SEC_PRYJ_MZP": [
+          4
+        ],
+        "SEC_MZP_DDU": [
+          5
+        ]
+      },
+      "passengers_estimated": 950
+    },
+    {
+      "train_number": "15484",
+      "train_name": "Mahananda Express",
+      "train_type": "EXPRESS",
+      "priority": 2,
+      "is_must_run": false,
+      "origin": "NDLS",
+      "destination": "DDU",
+      "departure_time": "07:00",
+      "arrival_time": "20:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          7
+        ],
+        "SEC_GZB_ALJN": [
+          8
+        ],
+        "SEC_ALJN_TDL": [
+          9
+        ],
+        "SEC_TDL_ETW": [
+          11
+        ],
+        "SEC_ETW_CNB": [
+          12
+        ],
+        "SEC_CNB_FTP": [
+          14
+        ],
+        "SEC_FTP_PRYJ": [
+          15
+        ],
+        "SEC_PRYJ_MZP": [
+          17
+        ],
+        "SEC_MZP_DDU": [
+          18
+        ]
+      },
+      "passengers_estimated": 950
+    },
+    {
+      "train_number": "FRT_CON_101",
+      "train_name": "CONCOR Container Rake (TKD-DDU)",
+      "train_type": "FREIGHT",
+      "priority": 3,
+      "is_must_run": false,
+      "origin": "NDLS",
+      "destination": "DDU",
+      "departure_time": "01:00",
+      "arrival_time": "09:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          1
+        ],
+        "SEC_GZB_ALJN": [
+          1
+        ],
+        "SEC_ALJN_TDL": [
+          2
+        ],
+        "SEC_TDL_ETW": [
+          3
+        ],
+        "SEC_ETW_CNB": [
+          4
+        ],
+        "SEC_CNB_FTP": [
+          5
+        ],
+        "SEC_FTP_PRYJ": [
+          6
+        ],
+        "SEC_PRYJ_MZP": [
+          7
+        ],
+        "SEC_MZP_DDU": [
+          8
+        ]
+      },
+      "passengers_estimated": 0
+    },
+    {
+      "train_number": "FRT_CON_102",
+      "train_name": "CONCOR Container Rake (DDU-TKD)",
+      "train_type": "FREIGHT",
+      "priority": 3,
+      "is_must_run": false,
+      "origin": "DDU",
+      "destination": "NDLS",
+      "departure_time": "13:00",
+      "arrival_time": "21:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          13
+        ],
+        "SEC_PRYJ_MZP": [
+          13
+        ],
+        "SEC_FTP_PRYJ": [
+          14
+        ],
+        "SEC_CNB_FTP": [
+          15
+        ],
+        "SEC_ETW_CNB": [
+          16
+        ],
+        "SEC_TDL_ETW": [
+          17
+        ],
+        "SEC_ALJN_TDL": [
+          18
+        ],
+        "SEC_GZB_ALJN": [
+          19
+        ],
+        "SEC_NDLS_GZB": [
+          20
+        ]
+      },
+      "passengers_estimated": 0
+    },
+    {
+      "train_number": "FRT_CON_103",
+      "train_name": "Auto Car Carrier (Maruti Rake)",
+      "train_type": "FREIGHT",
+      "priority": 3,
+      "is_must_run": false,
+      "origin": "GZB",
+      "destination": "CNB",
+      "departure_time": "02:00",
+      "arrival_time": "07:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          2
+        ],
+        "SEC_GZB_ALJN": [
+          2
+        ],
+        "SEC_ALJN_TDL": [
+          3
+        ],
+        "SEC_TDL_ETW": [
+          3
+        ],
+        "SEC_ETW_CNB": [
+          4
+        ],
+        "SEC_CNB_FTP": [
+          4
+        ],
+        "SEC_FTP_PRYJ": [
+          5
+        ],
+        "SEC_PRYJ_MZP": [
+          5
+        ],
+        "SEC_MZP_DDU": [
+          6
+        ]
+      },
+      "passengers_estimated": 0
+    },
+    {
+      "train_number": "FRT_COAL_201",
+      "train_name": "NTPC Coal Rake (Singrauli-Dadri)",
+      "train_type": "FREIGHT",
+      "priority": 3,
+      "is_must_run": false,
+      "origin": "DDU",
+      "destination": "GZB",
+      "departure_time": "00:00",
+      "arrival_time": "08:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          0
+        ],
+        "SEC_PRYJ_MZP": [
+          0
+        ],
+        "SEC_FTP_PRYJ": [
+          1
+        ],
+        "SEC_CNB_FTP": [
+          2
+        ],
+        "SEC_ETW_CNB": [
+          3
+        ],
+        "SEC_TDL_ETW": [
+          4
+        ],
+        "SEC_ALJN_TDL": [
+          5
+        ],
+        "SEC_GZB_ALJN": [
+          6
+        ],
+        "SEC_NDLS_GZB": [
+          7
+        ]
+      },
+      "passengers_estimated": 0
+    },
+    {
+      "train_number": "FRT_COAL_202",
+      "train_name": "NTPC Empty Rake (Dadri-Singrauli)",
+      "train_type": "FREIGHT",
+      "priority": 3,
+      "is_must_run": false,
+      "origin": "GZB",
+      "destination": "DDU",
+      "departure_time": "10:00",
+      "arrival_time": "18:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          10
+        ],
+        "SEC_GZB_ALJN": [
+          10
+        ],
+        "SEC_ALJN_TDL": [
+          11
+        ],
+        "SEC_TDL_ETW": [
+          12
+        ],
+        "SEC_ETW_CNB": [
+          13
+        ],
+        "SEC_CNB_FTP": [
+          14
+        ],
+        "SEC_FTP_PRYJ": [
+          15
+        ],
+        "SEC_PRYJ_MZP": [
+          16
+        ],
+        "SEC_MZP_DDU": [
+          17
+        ]
+      },
+      "passengers_estimated": 0
+    },
+    {
+      "train_number": "FRT_COAL_203",
+      "train_name": "Thermal Coal Rake 203",
+      "train_type": "FREIGHT",
+      "priority": 3,
+      "is_must_run": false,
+      "origin": "DDU",
+      "destination": "CNB",
+      "departure_time": "14:00",
+      "arrival_time": "20:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          14
+        ],
+        "SEC_PRYJ_MZP": [
+          14
+        ],
+        "SEC_FTP_PRYJ": [
+          15
+        ],
+        "SEC_CNB_FTP": [
+          16
+        ],
+        "SEC_ETW_CNB": [
+          16
+        ],
+        "SEC_TDL_ETW": [
+          17
+        ],
+        "SEC_ALJN_TDL": [
+          18
+        ],
+        "SEC_GZB_ALJN": [
+          18
+        ],
+        "SEC_NDLS_GZB": [
+          19
+        ]
+      },
+      "passengers_estimated": 0
+    },
+    {
+      "train_number": "FRT_BCN_301",
+      "train_name": "FCI Foodgrain Rake (Punjab-Bihar)",
+      "train_type": "FREIGHT",
+      "priority": 3,
+      "is_must_run": false,
+      "origin": "NDLS",
+      "destination": "DDU",
+      "departure_time": "03:00",
+      "arrival_time": "11:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          3
+        ],
+        "SEC_GZB_ALJN": [
+          3
+        ],
+        "SEC_ALJN_TDL": [
+          4
+        ],
+        "SEC_TDL_ETW": [
+          5
+        ],
+        "SEC_ETW_CNB": [
+          6
+        ],
+        "SEC_CNB_FTP": [
+          7
+        ],
+        "SEC_FTP_PRYJ": [
+          8
+        ],
+        "SEC_PRYJ_MZP": [
+          9
+        ],
+        "SEC_MZP_DDU": [
+          10
+        ]
+      },
+      "passengers_estimated": 0
+    },
+    {
+      "train_number": "FRT_BCN_302",
+      "train_name": "Fertilizer Rake (IFFCO-Phulpur)",
+      "train_type": "FREIGHT",
+      "priority": 3,
+      "is_must_run": false,
+      "origin": "PRYJ",
+      "destination": "TDL",
+      "departure_time": "11:00",
+      "arrival_time": "17:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          11
+        ],
+        "SEC_PRYJ_MZP": [
+          11
+        ],
+        "SEC_FTP_PRYJ": [
+          12
+        ],
+        "SEC_CNB_FTP": [
+          13
+        ],
+        "SEC_ETW_CNB": [
+          13
+        ],
+        "SEC_TDL_ETW": [
+          14
+        ],
+        "SEC_ALJN_TDL": [
+          15
+        ],
+        "SEC_GZB_ALJN": [
+          15
+        ],
+        "SEC_NDLS_GZB": [
+          16
+        ]
+      },
+      "passengers_estimated": 0
+    },
+    {
+      "train_number": "FRT_BCN_303",
+      "train_name": "Cement Rake (Birla-Aligarh)",
+      "train_type": "FREIGHT",
+      "priority": 3,
+      "is_must_run": false,
+      "origin": "DDU",
+      "destination": "ALJN",
+      "departure_time": "08:00",
+      "arrival_time": "16:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          8
+        ],
+        "SEC_PRYJ_MZP": [
+          8
+        ],
+        "SEC_FTP_PRYJ": [
+          9
+        ],
+        "SEC_CNB_FTP": [
+          10
+        ],
+        "SEC_ETW_CNB": [
+          11
+        ],
+        "SEC_TDL_ETW": [
+          12
+        ],
+        "SEC_ALJN_TDL": [
+          13
+        ],
+        "SEC_GZB_ALJN": [
+          14
+        ],
+        "SEC_NDLS_GZB": [
+          15
+        ]
+      },
+      "passengers_estimated": 0
+    },
+    {
+      "train_number": "FRT_BOXN_401",
+      "train_name": "Steel Coil Rake (Tata-Delhi)",
+      "train_type": "FREIGHT",
+      "priority": 3,
+      "is_must_run": false,
+      "origin": "DDU",
+      "destination": "NDLS",
+      "departure_time": "02:00",
+      "arrival_time": "10:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          2
+        ],
+        "SEC_PRYJ_MZP": [
+          2
+        ],
+        "SEC_FTP_PRYJ": [
+          3
+        ],
+        "SEC_CNB_FTP": [
+          4
+        ],
+        "SEC_ETW_CNB": [
+          5
+        ],
+        "SEC_TDL_ETW": [
+          6
+        ],
+        "SEC_ALJN_TDL": [
+          7
+        ],
+        "SEC_GZB_ALJN": [
+          8
+        ],
+        "SEC_NDLS_GZB": [
+          9
+        ]
+      },
+      "passengers_estimated": 0
+    },
+    {
+      "train_number": "FRT_BOXN_402",
+      "train_name": "Steel Empty Rake (Delhi-Tata)",
+      "train_type": "FREIGHT",
+      "priority": 3,
+      "is_must_run": false,
+      "origin": "NDLS",
+      "destination": "DDU",
+      "departure_time": "12:00",
+      "arrival_time": "20:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          12
+        ],
+        "SEC_GZB_ALJN": [
+          12
+        ],
+        "SEC_ALJN_TDL": [
+          13
+        ],
+        "SEC_TDL_ETW": [
+          14
+        ],
+        "SEC_ETW_CNB": [
+          15
+        ],
+        "SEC_CNB_FTP": [
+          16
+        ],
+        "SEC_FTP_PRYJ": [
+          17
+        ],
+        "SEC_PRYJ_MZP": [
+          18
+        ],
+        "SEC_MZP_DDU": [
+          19
+        ]
+      },
+      "passengers_estimated": 0
+    },
+    {
+      "train_number": "FRT_POL_501",
+      "train_name": "IOCL Petroleum Tanker Rake",
+      "train_type": "FREIGHT",
+      "priority": 3,
+      "is_must_run": false,
+      "origin": "CNB",
+      "destination": "GZB",
+      "departure_time": "01:00",
+      "arrival_time": "06:30",
+      "section_slots": {
+        "SEC_MZP_DDU": [
+          1
+        ],
+        "SEC_PRYJ_MZP": [
+          1
+        ],
+        "SEC_FTP_PRYJ": [
+          2
+        ],
+        "SEC_CNB_FTP": [
+          2
+        ],
+        "SEC_ETW_CNB": [
+          3
+        ],
+        "SEC_TDL_ETW": [
+          3
+        ],
+        "SEC_ALJN_TDL": [
+          4
+        ],
+        "SEC_GZB_ALJN": [
+          4
+        ],
+        "SEC_NDLS_GZB": [
+          5
+        ]
+      },
+      "passengers_estimated": 0
+    },
+    {
+      "train_number": "FRT_POL_502",
+      "train_name": "BPCL Petroleum Empty Rake",
+      "train_type": "FREIGHT",
+      "priority": 3,
+      "is_must_run": false,
+      "origin": "GZB",
+      "destination": "CNB",
+      "departure_time": "13:00",
+      "arrival_time": "18:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          13
+        ],
+        "SEC_GZB_ALJN": [
+          13
+        ],
+        "SEC_ALJN_TDL": [
+          14
+        ],
+        "SEC_TDL_ETW": [
+          14
+        ],
+        "SEC_ETW_CNB": [
+          15
+        ],
+        "SEC_CNB_FTP": [
+          15
+        ],
+        "SEC_FTP_PRYJ": [
+          16
+        ],
+        "SEC_PRYJ_MZP": [
+          16
+        ],
+        "SEC_MZP_DDU": [
+          17
+        ]
+      },
+      "passengers_estimated": 0
+    },
+    {
+      "train_number": "FRT_MIL_601",
+      "train_name": "Military Logistics Special Rake",
+      "train_type": "FREIGHT",
+      "priority": 3,
+      "is_must_run": false,
+      "origin": "NDLS",
+      "destination": "PRYJ",
+      "departure_time": "04:00",
+      "arrival_time": "11:30",
+      "section_slots": {
+        "SEC_NDLS_GZB": [
+          4
+        ],
+        "SEC_GZB_ALJN": [
+          4
+        ],
+        "SEC_ALJN_TDL": [
+          5
+        ],
+        "SEC_TDL_ETW": [
+          6
+        ],
+        "SEC_ETW_CNB": [
+          7
+        ],
+        "SEC_CNB_FTP": [
+          7
+        ],
+        "SEC_FTP_PRYJ": [
+          8
+        ],
+        "SEC_PRYJ_MZP": [
+          9
+        ],
+        "SEC_MZP_DDU": [
+          10
+        ]
+      },
+      "passengers_estimated": 0
+    }
+  ],
+  "requests": [
+    {
+      "id": "REQ-ENG-001",
+      "section_id": "SEC_TDL_ETW",
+      "department": "ENGINEERING",
+      "work_type": "Track Tamping (CSM Machine)",
+      "duration_hours": 3,
+      "urgency_score": 92.0,
+      "preferred_start_window": [
+        1,
+        5
+      ],
+      "machine_type": "CSM Tamping Machine",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-ENG-002",
+      "section_id": "SEC_CNB_FTP",
+      "department": "ENGINEERING",
+      "work_type": "Deep Screening of Ballast (BCM)",
+      "duration_hours": 4,
+      "urgency_score": 89.0,
+      "preferred_start_window": [
+        0,
+        5
+      ],
+      "machine_type": "BCM Track Machine",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-ENG-003",
+      "section_id": "SEC_NDLS_GZB",
+      "department": "ENGINEERING",
+      "work_type": "Turnout Renewal & Packing",
+      "duration_hours": 2,
+      "urgency_score": 84.0,
+      "preferred_start_window": [
+        1,
+        4
+      ],
+      "machine_type": "Turnout Tamper (UNIMAT)",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-ENG-004",
+      "section_id": "SEC_ALJN_TDL",
+      "department": "ENGINEERING",
+      "work_type": "Rail Grinding Machine (RGM)",
+      "duration_hours": 3,
+      "urgency_score": 79.0,
+      "preferred_start_window": [
+        0,
+        5
+      ],
+      "machine_type": "RGM Rail Grinder",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-ENG-005",
+      "section_id": "SEC_MZP_DDU",
+      "department": "ENGINEERING",
+      "work_type": "Through Rail Renewal (TRT)",
+      "duration_hours": 4,
+      "urgency_score": 82.0,
+      "preferred_start_window": [
+        1,
+        6
+      ],
+      "machine_type": "TRT Track Renewal Train",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-ENG-006",
+      "section_id": "SEC_ETW_CNB",
+      "department": "ENGINEERING",
+      "work_type": "Flash Butt Welding of Joints",
+      "duration_hours": 2,
+      "urgency_score": 73.0,
+      "preferred_start_window": [
+        11,
+        15
+      ],
+      "machine_type": "Mobile Flash Butt Welder",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-ENG-007",
+      "section_id": "SEC_FTP_PRYJ",
+      "department": "ENGINEERING",
+      "work_type": "Shoulder Ballast Cleaning (SBCM)",
+      "duration_hours": 3,
+      "urgency_score": 67.0,
+      "preferred_start_window": [
+        12,
+        16
+      ],
+      "machine_type": "SBCM Machine",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-ENG-008",
+      "section_id": "SEC_GZB_ALJN",
+      "department": "ENGINEERING",
+      "work_type": "De-stressing of Long Welded Rails",
+      "duration_hours": 3,
+      "urgency_score": 64.0,
+      "preferred_start_window": [
+        10,
+        14
+      ],
+      "machine_type": "P-Way Gang & Tensor",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-ENG-009",
+      "section_id": "SEC_CNB_BYPASS",
+      "department": "ENGINEERING",
+      "work_type": "Curved Track Gauge Correction",
+      "duration_hours": 2,
+      "urgency_score": 94.0,
+      "preferred_start_window": [
+        0,
+        6
+      ],
+      "machine_type": "Manual Gang & Jacks",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-ENG-010",
+      "section_id": "SEC_PRYJ_MZP",
+      "department": "ENGINEERING",
+      "work_type": "Sleeper Replacement on Approach",
+      "duration_hours": 3,
+      "urgency_score": 70.0,
+      "preferred_start_window": [
+        1,
+        5
+      ],
+      "machine_type": "Portal Crane Rake",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-ENG-011",
+      "section_id": "SEC_TDL_AF",
+      "department": "ENGINEERING",
+      "work_type": "Diamond Crossing Rehabilitation",
+      "duration_hours": 3,
+      "urgency_score": 56.0,
+      "preferred_start_window": [
+        12,
+        16
+      ],
+      "machine_type": "P-Way Heavy Gang",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-ENG-012",
+      "section_id": "SEC_TDL_ETW",
+      "department": "ENGINEERING",
+      "work_type": "Track Geometry Stabilization (DGS)",
+      "duration_hours": 2,
+      "urgency_score": 85.0,
+      "preferred_start_window": [
+        2,
+        6
+      ],
+      "machine_type": "DGS Dynamic Stabilizer",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-TRD-001",
+      "section_id": "SEC_CNB_FTP",
+      "department": "TRD_ELECTRICAL",
+      "work_type": "OHE Annual Overhaul (AOH)",
+      "duration_hours": 3,
+      "urgency_score": 88.0,
+      "preferred_start_window": [
+        1,
+        5
+      ],
+      "machine_type": "TRD Tower Wagon",
+      "block_type": "COMBINED_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-TRD-002",
+      "section_id": "SEC_TDL_ETW",
+      "department": "TRD_ELECTRICAL",
+      "work_type": "Cantilever & Dropper Replacement",
+      "duration_hours": 2,
+      "urgency_score": 81.0,
+      "preferred_start_window": [
+        0,
+        4
+      ],
+      "machine_type": "TRD Tower Wagon",
+      "block_type": "COMBINED_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-TRD-003",
+      "section_id": "SEC_NDLS_GZB",
+      "department": "TRD_ELECTRICAL",
+      "work_type": "Neutral Section Inspection & Tuning",
+      "duration_hours": 2,
+      "urgency_score": 80.0,
+      "preferred_start_window": [
+        1,
+        4
+      ],
+      "machine_type": "OHE Ladder Gang",
+      "block_type": "POWER_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-TRD-004",
+      "section_id": "SEC_MZP_DDU",
+      "department": "TRD_ELECTRICAL",
+      "work_type": "Contact Wire Splice Replacement",
+      "duration_hours": 3,
+      "urgency_score": 76.0,
+      "preferred_start_window": [
+        2,
+        6
+      ],
+      "machine_type": "TRD Tower Wagon",
+      "block_type": "COMBINED_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-TRD-005",
+      "section_id": "SEC_GZB_ALJN",
+      "department": "TRD_ELECTRICAL",
+      "work_type": "Isolator & Interrupter Servicing",
+      "duration_hours": 2,
+      "urgency_score": 62.0,
+      "preferred_start_window": [
+        11,
+        15
+      ],
+      "machine_type": "TRD Substation Gang",
+      "block_type": "POWER_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-TRD-006",
+      "section_id": "SEC_ETW_CNB",
+      "department": "TRD_ELECTRICAL",
+      "work_type": "Catenary Wire Tension Calibration",
+      "duration_hours": 2,
+      "urgency_score": 71.0,
+      "preferred_start_window": [
+        12,
+        16
+      ],
+      "machine_type": "TRD Tower Wagon",
+      "block_type": "COMBINED_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-TRD-007",
+      "section_id": "SEC_PRYJ_MZP",
+      "department": "TRD_ELECTRICAL",
+      "work_type": "Substation 25kV Feeder Testing",
+      "duration_hours": 2,
+      "urgency_score": 69.0,
+      "preferred_start_window": [
+        1,
+        4
+      ],
+      "machine_type": "Traction Substation Crew",
+      "block_type": "POWER_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-TRD-008",
+      "section_id": "SEC_ALJN_TDL",
+      "department": "TRD_ELECTRICAL",
+      "work_type": "Tree Trimming & OHE Clearance",
+      "duration_hours": 3,
+      "urgency_score": 74.0,
+      "preferred_start_window": [
+        10,
+        14
+      ],
+      "machine_type": "Tree Cutting Crew & Ladder",
+      "block_type": "POWER_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-TRD-009",
+      "section_id": "SEC_CNB_BYPASS",
+      "department": "TRD_ELECTRICAL",
+      "work_type": "Yard OHE Wire Height Recalibration",
+      "duration_hours": 3,
+      "urgency_score": 87.0,
+      "preferred_start_window": [
+        0,
+        5
+      ],
+      "machine_type": "TRD Tower Wagon",
+      "block_type": "COMBINED_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-TRD-010",
+      "section_id": "SEC_FTP_PRYJ",
+      "department": "TRD_ELECTRICAL",
+      "work_type": "Anti-Creep Wire Inspection",
+      "duration_hours": 2,
+      "urgency_score": 65.0,
+      "preferred_start_window": [
+        13,
+        17
+      ],
+      "machine_type": "OHE Ladder Gang",
+      "block_type": "POWER_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-SNT-001",
+      "section_id": "SEC_NDLS_GZB",
+      "department": "SIGNAL_TELECOM",
+      "work_type": "Electronic Interlocking (EI) Software Upgrade",
+      "duration_hours": 2,
+      "urgency_score": 86.0,
+      "preferred_start_window": [
+        1,
+        4
+      ],
+      "machine_type": "S&T Technical Team",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-SNT-002",
+      "section_id": "SEC_CNB_FTP",
+      "department": "SIGNAL_TELECOM",
+      "work_type": "Point Machine Replacement & Testing",
+      "duration_hours": 2,
+      "urgency_score": 85.0,
+      "preferred_start_window": [
+        1,
+        5
+      ],
+      "machine_type": "Point Specialist Gang",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-SNT-003",
+      "section_id": "SEC_TDL_ETW",
+      "department": "SIGNAL_TELECOM",
+      "work_type": "Multi-Section Digital Axle Counter (MSDAC) Test",
+      "duration_hours": 2,
+      "urgency_score": 78.0,
+      "preferred_start_window": [
+        2,
+        5
+      ],
+      "machine_type": "Axle Counter Team",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-SNT-004",
+      "section_id": "SEC_MZP_DDU",
+      "department": "SIGNAL_TELECOM",
+      "work_type": "Track Circuit Parameter Tuning",
+      "duration_hours": 2,
+      "urgency_score": 75.0,
+      "preferred_start_window": [
+        1,
+        4
+      ],
+      "machine_type": "S&T Line Gang",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-SNT-005",
+      "section_id": "SEC_ALJN_TDL",
+      "department": "SIGNAL_TELECOM",
+      "work_type": "Signal LED Unit & Aspect Testing",
+      "duration_hours": 1,
+      "urgency_score": 68.0,
+      "preferred_start_window": [
+        11,
+        14
+      ],
+      "machine_type": "S&T Inspection Crew",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-SNT-006",
+      "section_id": "SEC_ETW_CNB",
+      "department": "SIGNAL_TELECOM",
+      "work_type": "Signaling Power Cable Insulation Test",
+      "duration_hours": 2,
+      "urgency_score": 70.0,
+      "preferred_start_window": [
+        12,
+        16
+      ],
+      "machine_type": "S&T Cable Gang",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-SNT-007",
+      "section_id": "SEC_GZB_ALJN",
+      "department": "SIGNAL_TELECOM",
+      "work_type": "Automatic Block Signaling (ABS) Calibration",
+      "duration_hours": 2,
+      "urgency_score": 60.0,
+      "preferred_start_window": [
+        10,
+        14
+      ],
+      "machine_type": "ABS Test Crew",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-SNT-008",
+      "section_id": "SEC_CNB_BYPASS",
+      "department": "SIGNAL_TELECOM",
+      "work_type": "Yard Route Relay Interlocking Overhaul",
+      "duration_hours": 3,
+      "urgency_score": 90.0,
+      "preferred_start_window": [
+        0,
+        4
+      ],
+      "machine_type": "Interlocking Team",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-SNT-009",
+      "section_id": "SEC_FTP_PRYJ",
+      "department": "SIGNAL_TELECOM",
+      "work_type": "Level Crossing Gate Signal Interlock Check",
+      "duration_hours": 1,
+      "urgency_score": 63.0,
+      "preferred_start_window": [
+        14,
+        17
+      ],
+      "machine_type": "LC Gate Maintenance Gang",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-SNT-010",
+      "section_id": "SEC_PRYJ_MZP",
+      "department": "SIGNAL_TELECOM",
+      "work_type": "OFC (Optical Fiber) Joint Testing",
+      "duration_hours": 2,
+      "urgency_score": 66.0,
+      "preferred_start_window": [
+        1,
+        5
+      ],
+      "machine_type": "Telecom Fiber Crew",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-MECH-001",
+      "section_id": "SEC_CNB_FTP",
+      "department": "MECHANICAL",
+      "work_type": "Ganga Bridge Girder Inspection & Painting",
+      "duration_hours": 3,
+      "urgency_score": 83.0,
+      "preferred_start_window": [
+        10,
+        15
+      ],
+      "machine_type": "Bridge Inspection Gang",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-MECH-002",
+      "section_id": "SEC_PRYJ_MZP",
+      "department": "MECHANICAL",
+      "work_type": "Yamuna Bridge Bearing Replacement",
+      "duration_hours": 4,
+      "urgency_score": 76.0,
+      "preferred_start_window": [
+        11,
+        16
+      ],
+      "machine_type": "Heavy Bridge Gang & Jack",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-MECH-003",
+      "section_id": "SEC_TDL_AF",
+      "department": "MECHANICAL",
+      "work_type": "Yamuna Rail-Road Bridge Joint Overhaul",
+      "duration_hours": 3,
+      "urgency_score": 58.0,
+      "preferred_start_window": [
+        12,
+        17
+      ],
+      "machine_type": "Bridge Mechanical Team",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-MECH-004",
+      "section_id": "SEC_NDLS_GZB",
+      "department": "MECHANICAL",
+      "work_type": "Yamuna Bridge Expansion Joint Check",
+      "duration_hours": 2,
+      "urgency_score": 77.0,
+      "preferred_start_window": [
+        1,
+        4
+      ],
+      "machine_type": "Bridge Gang",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-MECH-005",
+      "section_id": "SEC_ETW_CNB",
+      "department": "MECHANICAL",
+      "work_type": "Girder Deflection Gauge Measurement",
+      "duration_hours": 2,
+      "urgency_score": 69.0,
+      "preferred_start_window": [
+        13,
+        17
+      ],
+      "machine_type": "Inspection Van & Gang",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    },
+    {
+      "id": "REQ-MECH-006",
+      "section_id": "SEC_MZP_DDU",
+      "department": "MECHANICAL",
+      "work_type": "Major Culvert Masonry Reinforcement",
+      "duration_hours": 3,
+      "urgency_score": 72.0,
+      "preferred_start_window": [
+        11,
+        15
+      ],
+      "machine_type": "Culvert Repair Gang",
+      "block_type": "TRAFFIC_BLOCK",
+      "status": "PENDING",
+      "assigned_start_slot": null,
+      "assigned_slots": null,
+      "reason": null,
+      "approved_by_controller": false
+    }
+  ]
+}
