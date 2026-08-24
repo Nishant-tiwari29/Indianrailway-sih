@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ir-block-planner
+    env: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: 8000
